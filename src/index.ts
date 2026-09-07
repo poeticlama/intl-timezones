@@ -1,6 +1,6 @@
 export type TimezoneType = {
 	tzCode: string
-	label: string | null | undefined
+	label?: string | null | undefined
 }
 
 export function getIntlTimezones() {
